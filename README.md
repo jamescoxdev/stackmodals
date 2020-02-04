@@ -52,7 +52,7 @@ export default MyApp;
 
 |Property       |Type         |Description                                                                          |
 |---------------|-------------|-------------------------------------------------------------------------------------|
-|stackObject    |Object       |Required. The modal object to pass to the component                                  |
+|stackObject    |Object       |Required. The modal object to pass to the component. (See modal types below)         |
 |clearStack     |Function     |Optional. Function for the component to call to clear any stack objects from parent  |
 
 <br />
