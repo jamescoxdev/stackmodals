@@ -86,7 +86,7 @@ Here is an example object and description:
 {
     id: '1',
     type: 'confirm',
-    htmlText: <div style={{padding:'20px'}}><h1 style={{fontWeight:100,margin:'0px'}}>Please Confirm</h1><p>Are you sure you want to confirm...?</p></div>,
+    htmlText: <div><h1 style={{fontWeight:100,margin:'0px'}}>Please Confirm</h1><p>Are you sure you want to confirm...?</p></div>,
     confirmBtnName: 'Do it!',
     confirmFunction: () => {
         alert('you did it!');
@@ -179,7 +179,7 @@ Here is an example object and description:
 {
     id: '1',
     type: 'sheet',
-    htmlText: <div style={{padding:'20px'}}><h1 style={{fontWeight:100}}>Some Terms & Conditions</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis, lectus non feugiat scelerisque, nulla lorem sodales ipsum, sit amet luctus purus urna in tortor. Aenean tincidunt quam eros, ac consequat eros porttitor gravida. Maecenas aliquet mauris vel varius congue. Vivamus aliquam, diam ut sagittis ullamcorper, odio libero ornare elit, id ullamcorper leo ex vel elit. Phasellus dictum elementum nisl. Nullam leo arcu, hendrerit id nibh eu, porta ultricies odio. Aliquam eu interdum nunc. Curabitur maximus sit amet nibh sit amet pretium. Phasellus rhoncus posuere sagittis. Suspendisse in fermentum diam. Phasellus efficitur quam non mi vehicula, vitae fermentum nisi vehicula.</p></div>    
+    htmlText: <div><h1 style={{fontWeight:100}}>Some Terms & Conditions</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis, lectus non feugiat scelerisque, nulla lorem sodales ipsum, sit amet luctus purus urna in tortor. Aenean tincidunt quam eros, ac consequat eros porttitor gravida. Maecenas aliquet mauris vel varius congue. Vivamus aliquam, diam ut sagittis ullamcorper, odio libero ornare elit, id ullamcorper leo ex vel elit. Phasellus dictum elementum nisl. Nullam leo arcu, hendrerit id nibh eu, porta ultricies odio. Aliquam eu interdum nunc. Curabitur maximus sit amet nibh sit amet pretium. Phasellus rhoncus posuere sagittis. Suspendisse in fermentum diam. Phasellus efficitur quam non mi vehicula, vitae fermentum nisi vehicula.</p></div>    
 }
 ```
 
