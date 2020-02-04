@@ -50,10 +50,10 @@ export default MyApp;
 
 # Modal Stack Props
 
-|Property       |Type         |Description      |
-|---------------|-------------|-----------------|
-|stackObject    |Object       |                 |
-|clearStack     |Function     |                 |
+|Property       |Type         |Description                                                                          |
+|---------------|-------------|-------------------------------------------------------------------------------------|
+|stackObject    |Object       |Required. The modal object to pass to the component                                  |
+|clearStack     |Function     |Optional. Function for the component to call to clear any stack objects from parent  |
 
 <br />
 
